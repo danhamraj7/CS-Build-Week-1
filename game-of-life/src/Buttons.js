@@ -28,15 +28,15 @@ class Buttons extends Component {
           <button className="btn btn-default" onClick={this.props.seed}>
             Seed
           </button>
-          <DropdownButton
+          {/*<DropdownButton
             title="Grid Size"
             id="size-menu"
             onSelect={this.handleSelect}
           >
-            {/*<MenuItem eventKey="1">20x10</MenuItem>
-              <MenuItem eventKey="2">50x30</MenuItem>
-      <MenuItem eventKey="3">70x50</MenuItem>*/}
-          </DropdownButton>
+            <MenuItem eventKey="1">20x10</MenuItem>
+            <MenuItem eventKey="2">50x30</MenuItem>
+    <MenuItem eventKey="3">70x50</MenuItem>
+          </DropdownButton>*/}
         </ButtonToolbar>
       </div>
     );

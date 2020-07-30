@@ -21,6 +21,7 @@ class Main extends React.Component {
 
     this.state = {
       generation: 0,
+      //creates the grid with 50cols 30rows
       gridFull: Array(this.rows)
         .fill()
         .map(() => Array(this.cols).fill(false)),
